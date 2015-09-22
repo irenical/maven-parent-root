@@ -80,7 +80,6 @@
               <serverId>ossrh</serverId>
               <nexusUrl>https://oss.sonatype.org/</nexusUrl>
               <autoReleaseAfterClose>true</autoReleaseAfterClose>
-              <mavenExecutorId>forked-path</mavenExecutorId>
             </configuration>
           </plugin>
           <plugin>
