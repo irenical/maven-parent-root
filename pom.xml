@@ -3,11 +3,12 @@
 
   <groupId>org.irenical.maven</groupId>
   <artifactId>parent-root</artifactId>
-  <version>1.7-SNAPSHOT</version>
+  <version>1.8.0</version>
 
   <name>irenical.org Parent POM</name>
   <description>Releasable LGPL Java Project</description>
   <packaging>pom</packaging>
+  
   <url>http://irenical.org</url>
 
   <organization>
@@ -47,11 +48,6 @@
       <name>Sonatype Nexus snapshot repository</name>
       <url>https://oss.sonatype.org/content/repositories/snapshots</url>
     </snapshotRepository>
-    <repository>
-      <id>ossrh</id>
-      <name>Sonatype Nexus release repository</name>
-      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-    </repository>
   </distributionManagement>
 
   <profiles>
@@ -68,7 +64,7 @@
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-gpg-plugin</artifactId>
-            <version>1.4</version>
+            <version>1.5</version>
             <executions>
               <execution>
                 <id>sign-artifacts</id>
@@ -101,7 +97,7 @@
               <execution>
                 <id>attach-sources</id>
                 <goals>
-                  <goal>jar</goal>
+                  <goal>jar-no-fork</goal>
                 </goals>
               </execution>
             </executions>
