@@ -4,4 +4,9 @@ Root Maven project, inherited by Irenical.org maven projects
 
 Boilerplate common to all irenical's maven projects should go here
 
-Release with mvn release:prepare release:perform -Darguments=-Dgpg.passphrase=thephrase
+Release instructions:
+
+1. Manually change pom.xml version
+2. mvn -P release clean deploy
+
+non-snapshot releases will be later on published to maven central (http://central.sonatype.org/pages/apache-maven.html)
