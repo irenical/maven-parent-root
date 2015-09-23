@@ -42,11 +42,11 @@
   </properties>
 
   <distributionManagement>
-<!--     <snapshotRepository> -->
-<!--       <id>ossrh</id> -->
-<!--       <name>Sonatype Nexus snapshot repository</name> -->
-<!--       <url>https://oss.sonatype.org/content/repositories/snapshots</url> -->
-<!--     </snapshotRepository> -->
+    <snapshotRepository>
+      <id>ossrh</id>
+      <name>Sonatype Nexus snapshot repository</name>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository>
     <repository>
       <id>ossrh</id>
       <name>Sonatype Nexus release repository</name>
