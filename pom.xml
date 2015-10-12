@@ -4,7 +4,7 @@
 
   <groupId>org.irenical.maven</groupId>
   <artifactId>parent-root</artifactId>
-  <version>1.8.1-SNAPSHOT</version>
+  <version>1.8.2-SNAPSHOT</version>
 
   <name>irenical.org Parent POM</name>
   <description>Releasable LGPL Java Project</description>
