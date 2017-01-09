@@ -1,10 +1,9 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.irenical.maven</groupId>
   <artifactId>parent-root</artifactId>
-  <version>1.8.3-SNAPSHOT</version>
+  <version>1.8.3</version>
 
   <name>irenical.org Parent POM</name>
   <description>Releasable LGPL Java Project</description>
@@ -21,7 +20,7 @@
     <connection>scm:git:git@github.com:irenical/maven-parent-root.git</connection>
     <developerConnection>scm:git:git@github.com:irenical/maven-parent-root.git</developerConnection>
     <url>git@github.com:irenical/maven-parent-root.git</url>
-    <tag>HEAD</tag>
+    <tag>parent-root-1.8.3</tag>
   </scm>
 
   <licenses>
